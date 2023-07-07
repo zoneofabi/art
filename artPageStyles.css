@@ -1,0 +1,609 @@
+.pageContentContainer{
+    border: 1px solid transparent;
+    margin-top: 1vw;
+}
+
+
+
+
+/*desktop query*/
+@media only screen and (min-width: 600px){
+
+.CGIArt_FullSpanPanel {
+
+        border: 1px solid rgb(63, 63, 63);;
+        height: 27vw;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+.CGIArt_FullSpanPanel_ProjectCont{
+    width: 50%;
+    border: 4px solid rgb(63, 63, 63);
+  
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+
+    overflow: hidden;
+}
+
+/*AT-ST Specification START*/
+    /*Making the first block in the grid take up 2 rows*/
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(1){
+    grid-row: 1/ span 2;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article{
+    background-color: #2f2f2f;
+        border: 2px solid sandybrown;
+        color: #008af3;
+        width: 90%;
+        margin: auto;
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+
+    color: rgb(239, 0, 0);
+
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+    
+    color: rgb(239, 0, 0);
+    
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(1) img{
+    width: 68%;
+    margin: auto;
+    display: block;
+  
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(2) img {
+    width: 55%;
+    margin: auto;
+    display: block;
+}
+
+
+/*AT-ST Specification END*/
+
+.CGIArt_FullSpanPanel_ProjectCont_ImageCont{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.CGIArt_FullSpanPanel_ProjectCont img{
+    width: 100%;
+ 
+}
+
+/*Start of Desc******************************************************/
+.CGIArt_FullSpanPanel_ProjectCont_DescCont{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_DescCont h2{
+    color: sandybrown;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_DescCont p {
+    color: sandybrown;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_DescCont article{
+    border: 2px solid black;
+    border-radius: 10% 20% 10% 20%;
+}
+
+
+    /* Start of Buzz desc box specification*/
+    .CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont{
+        background-color: black;
+        border: 2px solid black;
+    }
+
+        .CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+            background-color: #000b61;
+            border: 2px solid orchid;
+            width: 90%;
+            margin: auto;
+        }
+    /* End of Buzz desc box specification*/
+
+   /* Start of Five Seven desc box specification*/
+   .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont {
+       background-color: black;
+       border: 2px solid black;
+   }
+
+   .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+       background-color: #4c4c4c;
+       border: 2px solid rgb(224, 208, 59);
+       width: 90%;
+       margin: auto;
+     
+   }
+
+   .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2  {
+       color: rgb(207, 186, 163);
+   }
+
+   .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+       color: rgb(208, 186, 160);
+   }
+
+   /* End of Five Seven desc box specification*/
+
+
+
+  
+
+
+
+
+
+
+
+   /*Start of Five Seven 3rd image specification*/
+.CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(4) {
+    background-color: #010b56;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(4) img {
+    width: 60%;
+    display: block;
+    margin: auto;
+
+}
+
+   /*End of Five Seven 3rd image specification*/
+
+
+/*End of Desc******************************************************/
+
+
+
+/*Start of FIF Specification*/
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoCont {
+    border: 2px solid green;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(201, 201, 201, 1) 0%, rgba(0, 131, 172, 1) 92%);
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoCont video {
+  
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+  
+    border-radius: 8% 5% 8% 5%;
+    background: black;
+   
+
+}
+
+
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont {
+   
+    width: 100%;
+    height: 100%;
+
+    overflow:hidden;
+    margin: auto;
+    top: 0;
+
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont article {
+    width: 100%;
+    height: 100%;
+    color: #50dfcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont article p{
+   
+}
+
+
+
+
+
+.CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2){
+    grid-template-rows: 70% 30%;
+    grid-template-columns:none;
+} 
+
+
+/*End of FIF Specification*/
+
+
+ /* Start of Tech Illustration  desc box specification*/
+
+
+ .CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont {
+     background-color: rgb(222, 217, 217);
+     border-left: 2px solid black;
+     border-right: 1px solid transparent;
+     border-bottom: 1px solid transparent;
+
+ }
+
+ .CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+     background-color: rgb(0, 68, 186);
+     border: 2px solid rgb(221, 221, 221);
+    
+     color: white;
+     width: 90%;
+     margin: auto;
+
+ }
+
+ .CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+     color: white;
+ }
+
+ .CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+     color: white;
+ }
+
+ /* End of Tech Illustration desc box specification*/
+
+
+/*Start of F-22 Specification*/
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article{
+    background-color: #000b61;
+        border: 2px solid rgb(112, 218, 165);
+        width: 90%;
+        margin: auto;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+    color: rgb(112, 218, 165);
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+    color: rgb(112, 218, 165);
+}
+
+/*End of F-22 Specification*/
+
+
+
+
+
+
+
+
+}
+
+
+/*Mobile query*/
+@media only screen and (max-width: 600px){
+
+.CGIArt_FullSpanPanel {
+
+        border: 1px solid transparent;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+.CGIArt_FullSpanPanel_ProjectCont{
+    width: 100%;
+    border: 4px solid rgb(63, 63, 63);;
+    display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+    overflow: hidden;
+}    
+/*AT-ST Specification START*/
+/*Making the first block in the grid take up 2 rows*/
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(1) {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    grid-row: 1/ span 1;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+    background-color: #2f2f2f;
+    border: 2px solid sandybrown;
+    color: #008af3;
+    width: 90%;
+    margin: auto;
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+
+    color: rgb(239, 0, 0);
+
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+
+    color: rgb(239, 0, 0);
+
+
+}
+
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(1) img {
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(2) img {
+    width: 55%;
+    margin: auto;
+    display: block;
+
+
+}
+
+
+/*AT-ST Specification END*/
+
+
+.CGIArt_FullSpanPanel_ProjectCont_ImageCont {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.CGIArt_FullSpanPanel_ProjectCont img{
+    width: 100%;
+ 
+
+}
+
+/*Start of Desc******************************************************/
+.CGIArt_FullSpanPanel_ProjectCont_DescCont {
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_DescCont h2 {
+    color: sandybrown;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_DescCont p {
+    color: sandybrown;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+    border: 2px solid red;
+    border-radius: 10% 20% 10% 20%;
+}
+
+                /* Start of Buzz desc box specification*/
+                .CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont {
+                    background-color: black;
+                }
+        
+                .CGIArt_FullSpanPanel:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+                    background-color: #000b61;
+                }
+                /* End of Buzz desc box specification*/
+
+                /* Start of Five Seven desc box specification*/
+                    .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont {
+                        background-color: black;
+                        border: 2px solid black;
+                        }
+                
+                    .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+                        background-color: #4c4c4c;
+                        border: 2px solid rgb(224, 208, 59);
+                        width: 90%;
+                        margin: auto;
+                        }
+                
+                    .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+                        color: rgb(207, 186, 163);
+                        }
+                
+                    .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+                        color: rgb(208, 186, 160);
+                        }
+                
+                        /* End of Five Seven desc box specification*/
+
+
+                                                /*Start of Five Seven 3rd image specification*/
+                                                .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(4) {
+                                                    background-color: #010b56;
+                                                }
+                        
+                                                .CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_ImageCont:nth-of-type(4) img {
+                                                    width: 60%;
+                                                    display: block;
+                                                    margin: auto;
+                        
+                                                }
+                        
+                                                /*End of Five Seven 3rd image specification*/
+
+/*End of Desc******************************************************/
+
+
+/*Start of FIF Specification*/
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoCont {
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(201, 201, 201, 1) 0%, rgba(0, 131, 172, 1) 92%);
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoCont video {
+
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+
+    border-radius: 8% 5% 8% 5%;
+    background: black;
+
+
+}
+
+
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont {
+    border: 2px solid green;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow-y: scroll;
+    margin: auto;
+
+
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont article {
+    width: 100%;
+    height: 100%;
+    color: #69bbff;
+    text-align: center;
+    font-size: 2.3vw;
+    
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont article h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.CGIArt_FullSpanPanel_ProjectCont_VideoDescCont article p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+
+
+
+
+.CGIArt_FullSpanPanel:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) {
+    grid-template-rows: 80% 20%;
+    grid-template-columns: none;
+}
+
+
+/*End of FIF Specification*/
+
+
+
+/* Start of Tech Illustration  desc box specification*/
+
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont {
+    background-color: rgb(222, 217, 217);
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 5px solid black;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+    background-color: rgb(0, 68, 186);
+    border: 2px solid rgb(221, 221, 221);
+    color: white;
+    width: 90%;
+    margin: auto;
+    font-size:2.2vw;
+
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+    color: white;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(1) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+    color: white;
+}
+
+/* End of Tech Illustration desc box specification*/
+
+
+
+/*Start of F-22 Specification*/
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article {
+    background-color: #000b61;
+    border: 2px solid rgb(112, 218, 165);
+    width: 90%;
+    margin: auto;
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article h2 {
+    color: rgb(112, 218, 165);
+}
+
+.CGIArt_FullSpanPanel:nth-of-type(3) .CGIArt_FullSpanPanel_ProjectCont:nth-of-type(2) .CGIArt_FullSpanPanel_ProjectCont_DescCont article p {
+    color: rgb(112, 218, 165);
+}
+
+/*End of F-22 Specification*/
+
+
+
+
+
+
+
+}
